@@ -29,7 +29,7 @@ public class LinkedList<T> implements List<T>, Iterable<T>, Serializable, Clonea
 
     /**
      * Agregar un elemento a la lista
-     * @param T dat
+     * @param data T value
      * @return boolean
      */
     @Override
@@ -54,7 +54,7 @@ public class LinkedList<T> implements List<T>, Iterable<T>, Serializable, Clonea
     /**
      * Agregar un elemento a la lista
      * 
-     * @param T dat elemento a agregar
+     * @param element elemento de tipo T a agregar
      * @param index posicion donde de insertaran el elemento
      * 
      */
@@ -84,7 +84,7 @@ public class LinkedList<T> implements List<T>, Iterable<T>, Serializable, Clonea
     /**
      * Agregar todos los elementos de la coleccion
      * 
-     * @param C coleccion de elementos
+     * @param c coleccion de elementos
      * 
      * @param index posicion donde de insertaran los elementos
      * 
@@ -125,7 +125,7 @@ public class LinkedList<T> implements List<T>, Iterable<T>, Serializable, Clonea
     /**
      * Obtener el indice de un objeto
      * 
-     * @param objeto para buscar en la lista
+     * @param o para buscar en la lista
      * 
      * @return index posicion del elemento 
      */
@@ -147,7 +147,7 @@ public class LinkedList<T> implements List<T>, Iterable<T>, Serializable, Clonea
 
     /**
      * Retorna la ultima posicion del objeto en la lista 
-     * @param object elemento a buscar
+     * @param o elemento a buscar
      * @return last el ultimo elemento de la lista 
      */
     @Override
@@ -222,7 +222,7 @@ public class LinkedList<T> implements List<T>, Iterable<T>, Serializable, Clonea
 
     /**
      * Agrega una coleccion de elementos a la lista
-     * @param coleccion de elementos para agregar
+     * @param c coleccion de elementos para agregar
      * @return retorna si fue posible agregar los elementos
      */
     @Override
